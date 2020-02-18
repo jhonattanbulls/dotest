@@ -1,0 +1,39 @@
+<ion-header>
+<ion-toolbar>
+  <ion-buttons slot="primary" class="responsive">
+    <ion-button class="badge1" >
+      <ion-icon  name="notifications-outline"></ion-icon>
+    </ion-button>
+    <ion-button routerLink="/tabs/chat">
+      <ion-icon name="mail"></ion-icon>
+    </ion-button>
+    <ion-button >
+      <ion-icon  ></ion-icon>
+    </ion-button>
+    <ion-button >
+      <ion-icon class="m" ></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <!-- <ion-avatar  slot="start" class="center-v w-2 m-l-2 h-1">
+    <img (click)="openFirst();" class="logo-photo-circle" src="assets/img/logo-copa.png">
+  </ion-avatar> -->
+  <div slot="start" class="center-v m-l-2 copa">
+    <img src="">
+  </div>
+  <img class="img-letters" slot="start" style="width: 20px;" src="" >
+</ion-toolbar>
+</ion-header>
+<ion-router-outlet id="content1"></ion-router-outlet>
+<ion-tabs #myTabs>
+
+  <ion-tab-bar  slot="top" >
+    
+    <ion-tab-button tab="search">
+      <ion-icon src="{{('var' == 'var') ? 'assets/img/icons/m/search.svg' : 'assets/img/icons/m/search-outline.svg' }}"></ion-icon>
+      <ion-label>{{ 'tabs.menu.search' | translate }}</ion-label>
+    </ion-tab-button>
+
+  
+  </ion-tab-bar>
+
+</ion-tabs>

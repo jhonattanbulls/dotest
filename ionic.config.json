@@ -1,0 +1,7 @@
+{
+  "name": "tset",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

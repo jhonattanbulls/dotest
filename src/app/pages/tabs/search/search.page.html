@@ -1,0 +1,23 @@
+<ion-content>
+  <ion-slides
+    [options]="slideOpts"
+  >
+    <ion-slide
+      (click)="allTagSelect = true; sportSelect = ''"
+      [ngClass]="{'bg-col-active':allTagSelect === true}"
+      class="img-bg tagAll"
+    >
+      <h6>{{ 'search.sports.all' | translate }}</h6>
+    </ion-slide>
+    <ion-slide
+      *ngFor="let tag of sports; let i = index"
+      (click)="sportSelect = i; allTagSelect = false;"
+      [ngClass]="{'bg-col-active':sportSelect === i}"
+      class="img-bg"
+      [style.background-image]="sanitizeImage(tag.photo)"
+    >
+      <h6>{{ 'search.sports.'+tag.tag | translate }}</h6>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>

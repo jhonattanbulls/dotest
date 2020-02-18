@@ -1,0 +1,305 @@
+{
+    "welcome":{
+        "title": "¿Quieres pertenecer a la red social deportiva mas grande del mundo?",
+        "buttonLogin": "Iniciar Sesión",
+        "buttonRegister": "Crear cuenta"
+    },
+    "login": {
+        "usuario": "Usuario ó correo",
+        "clave": "Contraseña",
+        "recuperar": "¿Has olvidado tu contraseña?",
+        "titulo": "Ingresar a cuenta",
+        "btn": {
+            "iniciar": "Entrar",
+            "registrar": "Regístrate!",
+            "cancelar": "Cancelar",
+            "actualizar": "Actualizar"
+        },
+        "alert": {
+            "verifica_credenciales": "Usuario o contraseña invalidas, verifique sus credenciales",
+            "error": "Hubo un error al iniciar sesión, por favor intente mas tarde",
+            "change_exito": "Contraseña restablecida, ya puede continuar disfrutando de la aplicación",
+            "change_ error": "Hubo un error al restablecer la contraseña, por favor intente mas tarde"
+        },
+        "changePass": {
+            "titulo": "Restablecer contraseña",
+            "nuevaClave": "Nueva contraseña",
+            "confirmarClave": "Confirmar contraseña",
+            "contenido": "Está a tan solo un  paso de restablecer tu cotraseña y que puedas continuar disfrutando de la aplicación.",
+            "error_clave": "La contraseña no coincide"
+        },
+        "loader":{
+            "title": "Espera por favor..."
+        }
+    },
+    "recuperar_clave": {
+        "titulo": "Recuperar contraseña",
+        "descripcion": "Ingresa el correo con el que te registraste para restablecer tu contraseña",
+        "email": "Email",
+        "btn": {
+            "cancelar": "Cancelar",
+            "restablecer": "Restablecer"
+        },
+        "alert": {
+            "exito_email": "Revisa tu correo electrónico para obtener tu nueva contraseña.",
+            "error_email": "Ha ocurrido un error al recuperar la contraseña, por favor intenta más tarde."
+        }
+    },
+    "registro": {
+        "titulo": "Crea tu cuenta",
+        "titulo1":"Personales",
+        "titulo2":"del Jugador",
+        "titulo3":"de Usuario",
+        "deporte":"Selecciona tu deporte",
+        "form": {
+            "nombre": "Nombre",
+            "apellido": "Apellido",
+            "nacimiento": "Fecha de nacimiento",
+            "sexo": "Sexo",
+            "posicion": "Posición que juegas",
+            "pais": "País donde vives",
+            "estado": "Distrito/Estado",
+            "ciudad": "Ciudad",
+            "email": "Email",
+            "usuario": "Nombre de usuario",
+            "clave": "Contraseña",
+            "masculino": "Masculino",
+            "femenino": "Femenino",
+            "paises": "Países",
+            "estados": "Distritos/Estados",
+            "ciudades": "Cuidades",
+            "laterality": "Lateralidad",
+            "zurdo": "Zurdo",
+            "derecho": "Derecho",
+            "sports": "Deporte que juegas",
+            "nombre_deporte":"Nombre del deporte"
+        },
+        "btn": {
+            "cancelar": "Cancelar",
+            "siguiente": "Siguiente",
+            "aceptar": "Aceptar",
+            "anterior": "Anterior",
+            "registrar": "Registrar"
+        },
+        "alert": {
+            "registro": "Te has registrado de manera exitosa, ya puedes iniciar sesión con tus credenciales",
+            "error_registro": "Hubo algún error al registrar sus datos, por favor intente más tarde.",
+            "error_user": "El nombre de usuario ya se encuentra registrado",
+            "error_email": "Existe un usuario registrado con este email"
+        },
+        "loader":{
+            "title": "Espera por favor..."
+        }
+    },
+    "perfil": {
+        "modal": {
+            "titulo": "Editar perfil",
+            "personal": "Personal",
+            "jugador": "Jugador",
+            "logros": "Logros",
+            "usuario": "Usuario",
+            "agregarFoto": "Agregar foto de perfil",
+            "foto": "Tomar foto",
+            "galeria": "Seleccionar imagen de galería",
+            "form": {
+                "nombre": "Nombres",
+                "apellido": "Apellidos",
+                "nacimiento": "Fecha de nacimiento",
+                "sexo": "Sexo",
+                "biografia": "Biografía",
+                "posicion": "Posición en la que juegas",
+                "pais": "País donde vives",
+                "estado": "Distrito/Estado",
+                "ciudad": "Ciudad",
+                "email": "Email",
+                "usuario": "Nombre de usuario",
+                "clave": "Contraseña",
+                "masculino": "Masculino",
+                "femenino": "Femenino",
+                "paises": "Países",
+                "estados": "Distritos/Estados",
+                "ciudades": "Ciudades",
+                "talla": "Talla",
+                "peso": "Peso",
+                "telefono": "Teléfono",
+                "deporte": "Deporte",
+                "laterality": "Lateralidad",
+                "zurdo": "Zurdo",
+                "derecho": "Derecho",
+                "ambidiestro": "Ambidiestro"
+            }
+        },
+        "btn": {
+            "cancelar": "Cancelar",
+            "aceptar": "Aceptar",
+            "guardar": "Guardar"
+        },
+        "alert": {
+            "error_perfil": "Hubo un problema al actualizar sus datos, por favor intente más tarde",
+            "exito_perfil": "Tus datos se han actualizado con éxito",
+            "error_modal": "Huebo un problema al actualizar su foto de perfil, por favor intente más tarde",
+            "exito_modal": "Tu foto de perfil se ha actualizado con éxito"
+        },
+        "logros": {
+            "logros": "Logros"
+        }
+    },
+    "team": {
+        "form": {
+            "nombre": "Nombre",
+            "descripcion": "Descripción",
+            "participantes": "Cantidad de Participantes",
+            "fecha": "Fundación",
+            "paises": "Países",
+            "estados": "Distritos/Estados",
+            "ciudades": "Ciudades"
+        },
+        "loader":{
+            "title": "Espera por favor..."
+        }
+    },
+    "match":{
+        "form": {
+            "fecha": "Fecha del evento",
+            "paises": "Países",
+            "estados": "Distritos/Estados",
+            "ciudades": "Ciudades"
+        },
+        "btn": {
+            "cancelar": "Cancelar",
+            "aceptar": "Aceptar",
+            "guardar": "Guardar"
+        },
+        "loader":{
+            "title": "Espera por favor..."
+        }
+    },
+    "chat": {
+        "conversacion": {
+            "conversaciones_recientes": "Conversaciones Recientes",
+            "sin_conversaciones": "Sin conversaciónes recientes"
+        },
+        "mensajes":{
+
+        }
+
+    },
+    "publication": {
+        "title": "Publicación",
+        "no-publication": "Publicacion no encontrada.",
+        "create_post": {
+            "titulo": "Crear publicación"
+        },
+        "like": "Me gusta",
+        "i-do-not-like": "No me gusta",
+        "others-like": "Me gusta",
+        "see-more": "Ver mas",
+        "comment": "Comentar",
+        "share": "Compartir",
+        "options_post": {
+            "title-report": "Denunciar publicación",
+            "title-options": "Opciones",
+            "delete": "Eliminar",
+            "report": "Denunciar",
+            "revision": "Revisión",
+            "placeholder": "Ingresa el motivo de la denuncia...",
+            "send": "Enviar"
+        },
+        "comments": {
+            "title": "Comentarios",
+            "placeholder": "Añade un comentario...",
+            "button-send": "Publicar"
+        }
+    },
+    "search":{
+        "placeholder": "Buscar usuario..",
+        "sports": {
+            "all": "Todos",
+            "baseball": "Beisbol",
+            "football": "Futbol",
+            "basketball": "Baloncesto",
+            "others": "Otros"
+        },
+        "filter": {
+            "country": "País",
+            "state": "Distrito/Estado",
+            "city": "Ciudad",
+            "title": "Filtrar usuarios",
+            "searchTitle": "Usuarios encontrados",
+            "basic": "Básico",
+            "advanced": "Avanzado",
+            "position": "Posición",
+            "laterality": "Lateralidad",
+            "sex": "Sexo",
+            "year": "Año",
+            "height": "Estatura > a",
+            "weight": "Peso > a",
+            "clean": "Limpiar",
+            "search": "Buscar",
+            "since": "Desde",
+            "until": "Hasta"
+        }
+    },
+    "report":{
+        "title": "Reportar problema",
+        "send": "ENVIAR",
+        "loader":{
+            "title": "Espera por favor..."
+        },
+        "text-area": "Explica brevemente lo que ocurrió y qué pasos tenemos que llevar a cabo para reproducir el problema",
+        "gallery": "Galeria"
+    },
+    "language": {
+        "title": "Idioma"
+    },
+    "notifications": {
+        "title": "Notificaciones",
+        "no-notifications": "No tienes notificaciones"
+    },
+    "tabs": {
+        "menu": {
+            "home": "Inicio",
+            "search": "Buscar",
+            "events": "Eventos",
+            "pool": "Quiniela",
+            "profile": "Perfil"
+        },
+        "menu-list": {
+            "language": "Idioma",
+            "share-app": "Compartir aplicación",
+            "faqs": "FAQs",
+            "report-a-problem": "Reportar un problema",
+            "logout": "Cerrar sesión",
+            "followed": "Seguidos",
+            "followers": "Seguidores"
+        }
+    },
+    "pool": {
+        "next-games": "Proximos juegos",
+        "my-points": "Mis puntos:",
+        "enable-notification": "Activar notificación",
+        "play-game": {
+            "select-your-play": "Selecciona tu jugada",
+            "tie": "Empate",
+            "winnings-per-move": "Ganancias por jugada",
+            "amount-to-play": "Cantidad a jugar",
+            "good-luck": "¡Buena suerte!",
+            "amount-of-play": "Monto de jugada",
+            "winnings-in-play": "Ganancias en juego",
+            "make-play": "Realizar jugada",
+            "share": "Compartir",
+            "friends": "Amigos",
+            "others": "Otros",
+            "points": "Puntos",
+            "they-have-not-made-plays": "No han realizado jugadas",
+            "play-and-share": "Juega y comparte"
+        }
+    },
+    "sports": {
+        "all": "Todos",
+        "baseball": "Beisbol",
+        "football": "Futbol",
+        "basketball": "Baloncesto",
+        "others": "Otros"
+    }
+}
